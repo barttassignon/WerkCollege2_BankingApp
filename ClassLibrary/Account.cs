@@ -5,7 +5,7 @@ namespace ClassLibrary
     class Account
     {
         public string IBAN { get; set; }
-        private decimal Balance { get; set; }
+        public decimal Balance { get; set; }
         public DateTime CreationDate { get; set; }
         public decimal Interest { get; set; }
 
