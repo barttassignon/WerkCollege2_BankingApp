@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WerkCollege2_BankingApp", "WerkCollege2_BankingApp\WerkCollege2_BankingApp.csproj", "{43AA4C1B-4447-4C45-81A1-1ED5BB5D3F16}"
+	ProjectSection(ProjectDependencies) = postProject
+		{34F693C2-3E95-4066-ADF3-E42B336B4626} = {34F693C2-3E95-4066-ADF3-E42B336B4626}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{34F693C2-3E95-4066-ADF3-E42B336B4626}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43AA4C1B-4447-4C45-81A1-1ED5BB5D3F16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43AA4C1B-4447-4C45-81A1-1ED5BB5D3F16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43AA4C1B-4447-4C45-81A1-1ED5BB5D3F16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43AA4C1B-4447-4C45-81A1-1ED5BB5D3F16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34F693C2-3E95-4066-ADF3-E42B336B4626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34F693C2-3E95-4066-ADF3-E42B336B4626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34F693C2-3E95-4066-ADF3-E42B336B4626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34F693C2-3E95-4066-ADF3-E42B336B4626}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B353D3B9-CDE6-40D5-B9C6-70CA8A7E5C82}
+	EndGlobalSection
+EndGlobal
