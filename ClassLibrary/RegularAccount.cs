@@ -17,7 +17,12 @@ namespace ClassLibrary
             {
                 CreditCards = creditCards;
             }
-
         }
+        public override string ToString()
+        {
+            return base.ToString() + Environment.NewLine +
+               "Credit Cards: " + string.Join(", ", CreditCards);
+        }
+
     }
 }

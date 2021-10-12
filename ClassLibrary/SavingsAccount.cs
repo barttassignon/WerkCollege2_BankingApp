@@ -6,9 +6,14 @@ namespace ClassLibrary
     {
         public decimal LoyaltyBonus { get; set; }
 
-        public SavingsAccount(string iban, decimal balance, DateTime creationdate, decimal interest, decimal loyaltiBonus) : base(iban, balance, creationdate, interest)
+        public SavingsAccount(string iban, decimal balance, DateTime creationdate, decimal interest, decimal loyaltyBonus) : base(iban, balance, creationdate, interest)
         {
-            LoyaltyBonus = loyaltiBonus;
+            LoyaltyBonus = loyaltyBonus;
+        }
+
+        public override string ToString()
+        {
+            return base.ToString() + $", Loyalty Bonus: {LoyaltyBonus:C}.";
         }
     }
 }
