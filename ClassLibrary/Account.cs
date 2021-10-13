@@ -9,13 +9,16 @@ namespace ClassLibrary
         public DateTime CreationDate { get; set; }
         public decimal Interest { get; set; }
         public abstract string AccountType { get; }
+        public Client Client { get; set; }
 
-        public Account(string iban, decimal balance, DateTime creationdate, decimal interest)
+        public Account(string iban, decimal balance, DateTime creationdate, decimal interest, Client client)
         {
+
             IBAN = iban;
             Balance = balance;
             CreationDate = creationdate;
             Interest = interest;
+            Client = client;
         }
 
         /// <summary>
@@ -62,7 +65,7 @@ namespace ClassLibrary
 
         public override string ToString()
         {
-            return $"IBAN: {IBAN}, Balance: {Balance:C}, Creation Date: {CreationDate:d}, Interest: {Interest}";
+            return $"Klant: {Client} IBAN: {IBAN}, Balance: {Balance:C}, Creation Date: {CreationDate:d}, Interest: {Interest}";
         }
 
     }

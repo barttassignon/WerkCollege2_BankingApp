@@ -7,7 +7,7 @@ namespace ClassLibrary
         public decimal LoyaltyBonus { get; set; }
         public override string AccountType => GetType().ToString();
 
-        public SavingsAccount(string iban, decimal balance, DateTime creationdate, decimal interest, decimal loyaltyBonus) : base(iban, balance, creationdate, interest)
+        public SavingsAccount(string iban, decimal balance, DateTime creationdate, decimal interest, Client client, decimal loyaltyBonus) : base(iban, balance, creationdate, interest, client)
         {
             LoyaltyBonus = loyaltyBonus;
         }
