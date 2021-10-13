@@ -2,12 +2,13 @@
 
 namespace ClassLibrary
 {
-    class Account
+    public abstract class Account
     {
         public string IBAN { get; set; }
         public decimal Balance { get; set; }
         public DateTime CreationDate { get; set; }
         public decimal Interest { get; set; }
+        public abstract string AccountType { get; }
 
         public Account(string iban, decimal balance, DateTime creationdate, decimal interest)
         {
