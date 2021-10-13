@@ -9,9 +9,16 @@ namespace WerkCollege2_BankingApp
         static void Main(string[] args)
         {
 
-            var cards = new List<string> { "1234", "5678" };
-            var regular = new RegularAccount("BE12 3456 7890 1234", 1000M, DateTime.Now, 0.05M, cards);
-            Console.WriteLine(regular.ToString());
+            var rekeningen = new List<Account>();
+
+            rekeningen.Add(new RegularAccount("BE123 4567", 1000M, DateTime.Now, 0.02M));
+            rekeningen.Add(new SavingsAccount("BE456 7890", 2500M, DateTime.Now, 0.05M, 0.02M));
+
+            foreach (var rekening in rekeningen)
+            {
+                Console.WriteLine(rekening);
+                Console.WriteLine();
+            }
         }
 
 
