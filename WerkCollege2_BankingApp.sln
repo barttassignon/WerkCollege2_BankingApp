@@ -3,12 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WerkCollege2_BankingApp", "WerkCollege2_BankingApp\WerkCollege2_BankingApp.csproj", "{43AA4C1B-4447-4C45-81A1-1ED5BB5D3F16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WerkCollege2_BankingApp", "WerkCollege2_BankingApp\WerkCollege2_BankingApp.csproj", "{43AA4C1B-4447-4C45-81A1-1ED5BB5D3F16}"
 	ProjectSection(ProjectDependencies) = postProject
 		{34F693C2-3E95-4066-ADF3-E42B336B4626} = {34F693C2-3E95-4066-ADF3-E42B336B4626}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{34F693C2-3E95-4066-ADF3-E42B336B4626}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{34F693C2-3E95-4066-ADF3-E42B336B4626}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WE02_WPF", "WE02_WPF\WE02_WPF.csproj", "{D4804736-A511-4582-AB93-3823D611FAF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +26,10 @@ Global
 		{34F693C2-3E95-4066-ADF3-E42B336B4626}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34F693C2-3E95-4066-ADF3-E42B336B4626}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34F693C2-3E95-4066-ADF3-E42B336B4626}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4804736-A511-4582-AB93-3823D611FAF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4804736-A511-4582-AB93-3823D611FAF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4804736-A511-4582-AB93-3823D611FAF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4804736-A511-4582-AB93-3823D611FAF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

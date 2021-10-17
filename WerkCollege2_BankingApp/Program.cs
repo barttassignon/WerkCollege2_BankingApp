@@ -20,7 +20,7 @@ namespace WerkCollege2_BankingApp
             foreach (var rekening in rekeningen)
             {
                 Console.WriteLine(rekening);
-                Console.WriteLine();
+                Console.WriteLine("-------------------------------------------------------------------------------------");
             }
         }
     }
